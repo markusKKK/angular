@@ -10,7 +10,7 @@ import { AddComponent } from './add/add.component';
 const routes: Routes = [
   { path: '', component: CreditcardsComponent},
   { path: 'view/:id', component: ViewComponent},
-  { path: 'add/:id', component: AddComponent},
+  { path: 'add', component: AddComponent},
   { path: 'edit/:id', component: EditComponent},
   { path: 'delete/:id', component: DeleteComponent},
   { path: '**', component: PageNotFoundComponent}
