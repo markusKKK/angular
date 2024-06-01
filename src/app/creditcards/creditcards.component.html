@@ -1,23 +1,25 @@
 <div class="mat-card" style="display:flex; flex-direction: row;">
     <mat-card class="mat-card count-card bg-success">
         <mat-card-title>Num of Cards</mat-card-title>
-        <mat-card-content>10</mat-card-content>
+        <mat-card-content>{{totalCreditCards}}</mat-card-content>
     </mat-card>
 
     <mat-card class="mat-card count-card bg-warning">
-        <mat-card-title>Num of Cards</mat-card-title>
-        <mat-card-content>10</mat-card-content>
+        <mat-card-title>Num of Cards With Atleast 7% Interest Rate</mat-card-title>
+        <mat-card-content>{{creditCardMaximumInterest}}</mat-card-content>
     </mat-card>
 
     <mat-card class="mat-card count-card bg-info">
-        <mat-card-title>Num of Cards</mat-card-title>
-        <mat-card-content>10</mat-card-content>
+        <mat-card-title>Num of Cards With Atleast 3000 Amount</mat-card-title>
+        <mat-card-content>{{creditCardMaximumAmount}}</mat-card-content>
     </mat-card>
 
     <mat-card class="mat-card count-card bg-primary">
-        <mat-card-title>Num of Cards</mat-card-title>
-        <mat-card-content>10</mat-card-content>
+        <mat-card-title>Num of Active Credit Cards</mat-card-title>
+        <mat-card-content>{{activeCreditCards}}</mat-card-content>
     </mat-card>
+
+   
 
 </div>
 
